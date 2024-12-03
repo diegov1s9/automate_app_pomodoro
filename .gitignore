@@ -1,0 +1,16 @@
+# Ignore automatically generated files and directories
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+# Ignore pytest cache
+.pytest_cache/
+# Ignore all files in the logs directory
+logs/*
+# Do not ignore the .gitkeep file in the logs directory
+!logs/.gitkeep
+# Ignore all files in the reports directory
+reports/*
+# Do not ignore the .gitkeep file in the reports directory
+!reports/.gitkeep
