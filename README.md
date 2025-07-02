@@ -45,7 +45,10 @@ source venv/bin/activate  # En Windows: venv\Scripts\activate
 2. Instala las dependencias:
 
 ```bash
+# En Linux/Mac:
 pip install -r requirements.txt
+# En Windows (si tienes problemas con pip):
+venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
 ### 🐳 Configuración con Docker
